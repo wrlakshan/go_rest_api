@@ -12,7 +12,7 @@ This project is a RESTful API built with Go, using the Echo framework and MySQL 
 1. Clone the repository:
 
    ```
-   git clone
+   git clone https://github.com/wrlakshan/go_rest_api
    cd go_rest_api
    ```
 

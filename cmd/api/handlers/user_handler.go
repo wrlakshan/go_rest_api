@@ -41,7 +41,7 @@ func (h *UserHandler) SignUp(c echo.Context) error {
 		return echo.NewHTTPError(http.StatusInternalServerError, "Failed to retrieve user ID")
 	}
 	user.ID = int(id)
-	// user.Password = ""
+	user.Password = ""
 
 	return c.JSON(http.StatusCreated, user)
 }
